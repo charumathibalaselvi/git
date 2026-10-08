@@ -47,6 +47,26 @@ Author: demo <imcharumathi@gmail.com>
 Date:   Thu Oct 8 20:15:05 2026 +0530
 
     readme
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> git status            
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   readme.md
 
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+        index.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+# make changes all the files
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> git add .
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> git commit -m 'initial commit'
+[main edf7044] initial commit
+ 3 files changed, 33 insertions(+)
+ create mode 100644 index.html
+ create mode 100644 index.js
 
 
