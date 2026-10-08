@@ -85,4 +85,37 @@ PS C:\Users\Charu\OneDrive\Desktop\GO\git>
 
 
 # need to see previous version
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> git checkout e57602a294cc3ce12cc68704445e7a16568289fd
+Note: switching to 'e57602a294cc3ce12cc68704445e7a16568289fd'.
 
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at e57602a initial readme
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> 
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> git checkout 6e672362cb769cb52744708d7b326123a2567915
+Previous HEAD position was e57602a initial readme
+HEAD is now at 6e67236 readme
+
+# came back to the changes using checkout
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> git checkout main
+Previous HEAD position was 6e67236 readme
+Switched to branch 'main'
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> 
+
+# force check out to previous
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> git checkout -f main
+Already on 'main'
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> 
