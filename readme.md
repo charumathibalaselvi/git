@@ -119,3 +119,10 @@ PS C:\Users\Charu\OneDrive\Desktop\GO\git>
 PS C:\Users\Charu\OneDrive\Desktop\GO\git> git checkout -f main
 Already on 'main'
 PS C:\Users\Charu\OneDrive\Desktop\GO\git> 
+
+# check status
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> 
+
