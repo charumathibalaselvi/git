@@ -69,4 +69,20 @@ PS C:\Users\Charu\OneDrive\Desktop\GO\git> git commit -m 'initial commit'
  create mode 100644 index.html
  create mode 100644 index.js
 
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> git log
+commit edf7044f7aa0eced90e5ea60ddb4749258f5b0b4 (HEAD -> main)
+Author: demo <imcharumathi@gmail.com>
+Date:   Thu Oct 8 20:21:14 2026 +0530
+
+    initial commit
+
+commit 6e672362cb769cb52744708d7b326123a2567915
+Author: demo <imcharumathi@gmail.com>
+Date:   Thu Oct 8 20:15:05 2026 +0530
+
+    readme
+PS C:\Users\Charu\OneDrive\Desktop\GO\git> 
+
+
+# need to see previous version
 
